@@ -1,0 +1,5 @@
+Student Marks Analysis
+Marks: [100.0, 95.0, 90.0, 85.0, 88.0]
+Total Marks:458.0
+Percentage: 91.60%
+Grade: A
