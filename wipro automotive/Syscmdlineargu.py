@@ -1,7 +1,6 @@
 import sys
 
 # Reading numbers from command-line arguments
-numbers = list(map(float, sys.argv[1:]))
 numbers = list(map(int, sys.argv[1:]))
 
 # Calculating sum and average
