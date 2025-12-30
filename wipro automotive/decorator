@@ -1,0 +1,13 @@
+def calculator(func):
+    def wrapper(a, b):
+        print("Performing addition using decorator")
+        return a + b
+    return wrapper
+
+@calculator
+def add(a, b):
+    pass   # function body is handled by decorator
+
+# Function call
+result = add(10, 20)
+print("Result:", result)
